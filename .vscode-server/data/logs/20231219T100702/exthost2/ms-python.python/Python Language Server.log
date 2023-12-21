@@ -1,0 +1,10 @@
+2023-12-20 17:39:19.115 [info] (Client) Pylance async client (2023.12.1) started with python extension (2023.22.1)
+2023-12-20 17:39:19.432 [info] [Info  - 5:39:19 PM] (120379) Pylance language server 2023.12.1 (pyright a78e2b10) starting
+2023-12-20 17:39:19.433 [info] [Info  - 5:39:19 PM] (120379) Server root directory: /home/dew/.vscode-server/extensions/ms-python.vscode-pylance-2023.12.1/dist
+2023-12-20 17:39:19.433 [info] [Info  - 5:39:19 PM] (120379) Starting service instance "FSDI_111"
+2023-12-20 17:39:19.468 [info] [Info  - 5:39:19 PM] (120379) Setting pythonPath for service "FSDI_111": "/home/dew/Code/SDGKU/FSDI_111/venv/bin/python"
+2023-12-20 17:39:19.468 [info] [Info  - 5:39:19 PM] (120379) Setting environmentName for service "FSDI_111": "3.10.12 (venv venv)"
+2023-12-20 17:39:19.483 [info] [Info  - 5:39:19 PM] (120379) Assuming Python version 3.10
+2023-12-20 17:39:19.509 [info] [Info  - 5:39:19 PM] (120379) Auto-excluding /home/dew/Code/SDGKU/FSDI_111/venv
+2023-12-20 17:39:19.512 [info] [Info  - 5:39:19 PM] (120379) Found 3 source files
+2023-12-20 17:40:00.771 [info] [Info  - 5:40:00 PM] (120379) Found 2 source files

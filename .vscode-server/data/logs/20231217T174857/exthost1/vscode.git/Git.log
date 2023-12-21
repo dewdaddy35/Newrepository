@@ -1,0 +1,79 @@
+2023-12-17 17:49:03.454 [info] Log level: Info
+2023-12-17 17:49:03.454 [info] Validating found git in: "git"
+2023-12-17 17:49:03.454 [info] Using git "2.34.1" from "git"
+2023-12-17 17:49:03.454 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-17 17:49:03.454 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-17 17:49:03.454 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-17 17:49:03.454 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-17 17:49:03.454 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-17 17:49:03.459 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-12-17 17:49:03.468 [info] Open repository: /home/dew/.oh-my-zsh
+2023-12-17 17:49:03.476 [info] > git config --get commit.template [2ms]
+2023-12-17 17:49:03.476 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-17 17:49:03.476 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-17 17:49:03.483 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-12-17 17:49:03.483 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-17 17:49:03.483 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-17 17:49:03.489 [info] > git rev-parse --show-toplevel [4ms]
+2023-12-17 17:49:03.489 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-17 17:49:03.492 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-17 17:49:03.492 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-17 17:49:03.505 [info] > git status -z -uall [16ms]
+2023-12-17 17:49:03.513 [info] > git config --get commit.template [2ms]
+2023-12-17 17:49:03.514 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-17 17:49:03.533 [info] > git status -z -uall [16ms]
+2023-12-17 17:49:03.993 [info] > git check-ignore -v -z --stdin [0ms]
+2023-12-17 17:49:04.077 [info] > git fetch [609ms]
+2023-12-17 17:49:04.085 [info] > git config --get commit.template [2ms]
+2023-12-17 17:49:04.088 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-17 17:49:04.107 [info] > git status -z -uall [16ms]
+2023-12-17 17:49:05.250 [info] > git config --get commit.template [1ms]
+2023-12-17 17:49:05.253 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2023-12-17 17:49:05.271 [info] > git status -z -uall [15ms]
+2023-12-17 17:50:40.921 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-17 17:50:40.921 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-17 17:51:35.576 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-17 17:51:35.576 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-17 17:51:36.101 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-17 17:51:36.101 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-17 17:52:04.606 [info] > git fetch [489ms]
+2023-12-17 17:52:04.610 [info] > git config --get commit.template [1ms]
+2023-12-17 17:52:04.613 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-17 17:52:04.631 [info] > git status -z -uall [15ms]
+2023-12-17 17:52:05.716 [info] > git config --get commit.template [1ms]
+2023-12-17 17:52:05.719 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-17 17:52:05.737 [info] > git status -z -uall [15ms]
+2023-12-17 17:52:46.078 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-17 17:52:46.078 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-12-17 17:52:49.771 [info] > git check-ignore -v -z --stdin [0ms]
+2023-12-17 17:54:18.627 [info] > git rev-parse --show-toplevel [4ms]
+2023-12-17 17:54:18.634 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-12-17 17:54:18.642 [info] Open repository: /home/dew
+2023-12-17 17:54:18.646 [info] > git config --get commit.template [1ms]
+2023-12-17 17:54:18.649 [info] No remotes found in the git config file.
+2023-12-17 17:54:18.649 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2023-12-17 17:54:18.658 [info] > git status -z -uall [5ms]
+2023-12-17 17:54:18.683 [info] > git config --get commit.template [2ms]
+2023-12-17 17:54:18.686 [info] No remotes found in the git config file.
+2023-12-17 17:54:18.686 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2023-12-17 17:54:18.694 [info] > git status -z -uall [5ms]
+2023-12-17 17:54:19.120 [info] > git show --textconv :.gitignore [7ms]
+2023-12-17 17:54:19.121 [info] > git ls-files --stage -- /home/dew/.gitignore [2ms]
+2023-12-17 17:54:19.192 [info] > git check-ignore -v -z --stdin [1ms]
+2023-12-17 17:57:00.888 [info] > git fetch [8ms]
+2023-12-17 17:57:00.892 [info] > git config --get commit.template [4ms]
+2023-12-17 17:57:00.893 [info] > git config --get commit.template [2ms]
+2023-12-17 17:57:00.895 [info] No remotes found in the git config file.
+2023-12-17 17:57:00.897 [info] No remotes found in the git config file.
+2023-12-17 17:57:00.897 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-12-17 17:57:00.898 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-17 17:57:00.906 [info] > git status -z -uall [6ms]
+2023-12-17 17:57:01.393 [info] > git fetch [510ms]
+2023-12-17 17:57:01.401 [info] > git config --get commit.template [3ms]
+2023-12-17 17:57:01.401 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-17 17:57:01.420 [info] > git status -z -uall [15ms]
+2023-12-17 17:57:02.567 [info] > git config --get commit.template [4ms]
+2023-12-17 17:57:02.568 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-17 17:57:02.586 [info] > git status -z -uall [15ms]
+2023-12-17 17:57:02.705 [info] > git ls-files --stage -- /home/dew/.gitignore [3ms]
+2023-12-17 17:57:02.805 [info] > git show --textconv :.gitignore [0ms]

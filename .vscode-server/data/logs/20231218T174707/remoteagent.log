@@ -1,0 +1,31 @@
+2023-12-18 17:47:07.802 [info] 
+
+
+
+
+2023-12-18 17:47:07.808 [info] Extension host agent started.
+2023-12-18 17:47:08.239 [info] [127.0.0.1][d8c74655][ManagementConnection] New connection established.
+2023-12-18 17:47:08.431 [info] [127.0.0.1][99eb1b9a][ExtensionHostConnection] New connection established.
+2023-12-18 17:47:08.458 [info] [127.0.0.1][99eb1b9a][ExtensionHostConnection] <33489> Launched Extension Host Process.
+2023-12-18 17:48:46.370 [info] Getting Manifest... ms-python.python
+2023-12-18 17:48:46.524 [info] Installing extension: ms-python.python
+2023-12-18 17:48:47.084 [info] Getting Manifest... ms-python.vscode-pylance
+2023-12-18 17:48:47.265 [info] Installing extension: ms-python.vscode-pylance ms-python.python
+2023-12-18 17:48:55.405 [warning] Extension signature verification failed with error 'ENOENT': ms-python.python
+2023-12-18 17:48:57.162 [info] Extracted extension to file:///home/dew/.vscode-server/extensions/ms-python.python-2023.22.1: ms-python.python
+2023-12-18 17:48:57.170 [info] Renamed to /home/dew/.vscode-server/extensions/ms-python.python-2023.22.1
+2023-12-18 17:48:57.173 [info] Extracting extension completed. ms-python.python
+2023-12-18 17:49:02.393 [warning] Extension signature verification failed with error 'ENOENT': ms-python.vscode-pylance
+2023-12-18 17:49:05.337 [info] Extracted extension to file:///home/dew/.vscode-server/extensions/ms-python.vscode-pylance-2023.12.1: ms-python.vscode-pylance
+2023-12-18 17:49:05.349 [info] Renamed to /home/dew/.vscode-server/extensions/ms-python.vscode-pylance-2023.12.1
+2023-12-18 17:49:05.351 [info] Extracting extension completed. ms-python.vscode-pylance
+2023-12-18 17:49:05.356 [info] Extension installed successfully: ms-python.python
+2023-12-18 17:49:05.356 [info] Extension installed successfully: ms-python.vscode-pylance
+2023-12-18 17:59:27.508 [info] [127.0.0.1][99eb1b9a][ExtensionHostConnection] The client has reconnected.
+2023-12-18 17:59:27.630 [info] [127.0.0.1][d8c74655][ManagementConnection] The client has reconnected.
+2023-12-18 18:09:58.531 [info] [127.0.0.1][d8c74655][ManagementConnection] The client has reconnected.
+2023-12-18 18:09:58.693 [info] [127.0.0.1][99eb1b9a][ExtensionHostConnection] The client has reconnected.
+2023-12-19 06:47:45.834 [info] [127.0.0.1][99eb1b9a][ExtensionHostConnection] The client has reconnected.
+2023-12-19 06:47:45.981 [info] [127.0.0.1][d8c74655][ManagementConnection] The client has reconnected.
+2023-12-19 07:05:15.417 [info] [127.0.0.1][d8c74655][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-12-19 07:05:15.455 [info] [127.0.0.1][99eb1b9a][ExtensionHostConnection] <33489> Extension Host Process exited with code: 0, signal: null.

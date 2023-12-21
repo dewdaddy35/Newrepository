@@ -1,0 +1,23 @@
+2023-12-17 17:48:57.808 [info] 
+
+
+
+
+2023-12-17 17:48:57.808 [info] Extension host agent started.
+2023-12-17 17:48:57.808 [info] Started initializing default profile extensions in extensions installation folder. file:///home/dew/.vscode-server/extensions
+2023-12-17 17:48:57.816 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/dew/.vscode-server/extensions
+2023-12-17 17:48:57.994 [info] [127.0.0.1][632e5f35][ManagementConnection] New connection established.
+2023-12-17 17:48:58.189 [info] [127.0.0.1][0f1a3c1f][ExtensionHostConnection] New connection established.
+2023-12-17 17:48:58.215 [info] [127.0.0.1][0f1a3c1f][ExtensionHostConnection] <12842> Launched Extension Host Process.
+2023-12-17 18:07:44.291 [info] [127.0.0.1][0f1a3c1f][ExtensionHostConnection] The client has reconnected.
+2023-12-17 18:07:44.433 [info] [127.0.0.1][632e5f35][ManagementConnection] The client has reconnected.
+2023-12-18 13:40:02.283 [info] [127.0.0.1][632e5f35][ManagementConnection] The client has reconnected.
+2023-12-18 13:40:02.400 [info] [127.0.0.1][0f1a3c1f][ExtensionHostConnection] The client has reconnected.
+2023-12-18 14:02:17.004 [info] [127.0.0.1][632e5f35][ManagementConnection] The client has reconnected.
+2023-12-18 14:02:17.147 [info] [127.0.0.1][0f1a3c1f][ExtensionHostConnection] The client has reconnected.
+2023-12-18 14:12:59.951 [info] [127.0.0.1][0f1a3c1f][ExtensionHostConnection] The client has reconnected.
+2023-12-18 14:13:00.105 [info] [127.0.0.1][632e5f35][ManagementConnection] The client has reconnected.
+2023-12-18 17:02:56.427 [info] [127.0.0.1][0f1a3c1f][ExtensionHostConnection] The client has reconnected.
+2023-12-18 17:02:56.558 [info] [127.0.0.1][632e5f35][ManagementConnection] The client has reconnected.
+2023-12-18 17:33:05.033 [info] [127.0.0.1][632e5f35][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-12-18 17:33:05.058 [info] [127.0.0.1][0f1a3c1f][ExtensionHostConnection] <12842> Extension Host Process exited with code: 0, signal: null.

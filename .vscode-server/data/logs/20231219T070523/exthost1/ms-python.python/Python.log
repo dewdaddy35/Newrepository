@@ -1,0 +1,45 @@
+2023-12-19 08:02:32.128 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2023-12-19 08:02:32.128 [info] Experiment 'pythonREPLSmartSend' is active
+2023-12-19 08:02:32.128 [info] Experiment 'pythonTestAdapter' is active
+2023-12-19 08:02:32.128 [info] Default formatter is set to null for workspace /mnt/c/Users/ericw/mynewrepo
+2023-12-19 08:02:32.128 [info] Test server listening.
+2023-12-19 08:02:32.139 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-19 08:02:32.139 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-19 08:02:32.139 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-19 08:02:32.139 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-19 08:02:32.174 [info] > C:\Users\ericw\AppData\Local\Programs\Python\Python312\python.exe -I ~/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2023-12-19 08:02:32.231 [error] [Error: Command failed: C:\Users\ericw\AppData\Local\Programs\Python\Python312\python.exe -I /home/dew/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py /home/dew/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+/bin/sh: 1: C:UsersericwAppDataLocalProgramsPythonPython312python.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:525:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:302:5)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\ericw\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -I /home/dew/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py /home/dew/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py'
+}
+2023-12-19 08:02:32.247 [info] > ./venv/bin/python -I ~/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2023-12-19 08:02:34.237 [info] > C:\Users\ericw\AppData\Local\Programs\Python\Python312\python.exe -I ~/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2023-12-19 08:02:34.271 [error] [Error: Command failed: C:\Users\ericw\AppData\Local\Programs\Python\Python312\python.exe -I /home/dew/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py /home/dew/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+/bin/sh: 1: C:UsersericwAppDataLocalProgramsPythonPython312python.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:525:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\ericw\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -I /home/dew/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py /home/dew/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py'
+}
+2023-12-19 08:02:34.381 [info] Python interpreter path: ./venv/bin/python
+2023-12-19 08:02:35.198 [info] Starting Pylance language server.
+2023-12-19 08:05:30.548 [info] Discover tests for workspace name: mynewrepo - uri: /mnt/c/Users/ericw/mynewrepo/app/__init__.py
+2023-12-19 08:06:42.063 [info] Discover tests for workspace name: mynewrepo - uri: /mnt/c/Users/ericw/mynewrepo/run.py
+2023-12-19 08:09:55.177 [info] Discover tests for workspace name: mynewrepo - uri: /mnt/c/Users/ericw/mynewrepo/app/__init__.py
+2023-12-19 08:37:51.993 [info] Discover tests for workspace name: mynewrepo - uri: /mnt/c/Users/ericw/mynewrepo/app/__init__.py
+2023-12-19 08:38:31.542 [info] Discover tests for workspace name: mynewrepo - uri: /mnt/c/Users/ericw/mynewrepo/app/__init__.py

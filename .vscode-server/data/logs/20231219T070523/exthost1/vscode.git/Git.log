@@ -1,0 +1,188 @@
+2023-12-19 07:05:26.927 [info] Log level: Info
+2023-12-19 07:05:26.927 [info] Validating found git in: "git"
+2023-12-19 07:05:26.927 [info] Using git "2.34.1" from "git"
+2023-12-19 07:05:26.954 [info] > git rev-parse --show-toplevel [29ms]
+2023-12-19 07:05:27.001 [info] > git rev-parse --show-toplevel [41ms]
+2023-12-19 07:05:27.039 [info] > git rev-parse --show-toplevel [34ms]
+2023-12-19 07:06:16.796 [info] > git rev-parse --show-toplevel [29ms]
+2023-12-19 07:06:17.208 [info] > git rev-parse --show-toplevel [23ms]
+2023-12-19 07:07:32.027 [info] > git rev-parse --show-toplevel [35ms]
+2023-12-19 07:08:25.144 [info] > git rev-parse --show-toplevel [120ms]
+2023-12-19 07:08:25.212 [info] > git rev-parse --git-dir --git-common-dir [56ms]
+2023-12-19 07:08:25.220 [info] Open repository: /mnt/c/Users/ericw/mynewrepo
+2023-12-19 07:08:25.236 [info] No remotes found in the git config file.
+2023-12-19 07:08:25.247 [info] > git config --get commit.template [19ms]
+2023-12-19 07:08:25.262 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [27ms]
+2023-12-19 07:08:25.344 [info] > git status -z -uall [77ms]
+2023-12-19 07:08:25.364 [info] No remotes found in the git config file.
+2023-12-19 07:08:25.388 [info] > git config --get commit.template [31ms]
+2023-12-19 07:08:25.408 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [44ms]
+2023-12-19 07:08:25.623 [info] > git status -z -uall [211ms]
+2023-12-19 07:08:25.717 [info] > git show --textconv :.gitignore [32ms]
+2023-12-19 07:08:25.718 [info] > git ls-files --stage -- /mnt/c/Users/ericw/mynewrepo/.gitignore [25ms]
+2023-12-19 07:08:25.911 [info] > git check-ignore -v -z --stdin [119ms]
+2023-12-19 07:41:06.117 [info] > git fetch [770ms]
+2023-12-19 07:41:06.117 [info] git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-12-19 07:41:06.160 [info] > git config --get commit.template [28ms]
+2023-12-19 07:41:06.423 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [282ms]
+2023-12-19 07:41:07.113 [info] > git status -z -uall [681ms]
+2023-12-19 08:02:17.550 [info] > git fetch [889ms]
+2023-12-19 08:02:17.550 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-12-19 08:02:17.570 [info] > git config --get commit.template [14ms]
+2023-12-19 08:02:17.652 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [90ms]
+2023-12-19 08:02:17.777 [info] > git status -z -uall [117ms]
+2023-12-19 08:02:31.210 [info] > git check-ignore -v -z --stdin [39ms]
+2023-12-19 08:02:32.109 [info] > git show --textconv :app/__init__.py [258ms]
+2023-12-19 08:02:32.109 [info] > git ls-files --stage -- /mnt/c/Users/ericw/mynewrepo/app/__init__.py [249ms]
+2023-12-19 08:02:32.209 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [92ms]
+2023-12-19 08:05:18.639 [info] > git fetch [843ms]
+2023-12-19 08:05:18.639 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-12-19 08:05:18.658 [info] > git config --get commit.template [12ms]
+2023-12-19 08:05:18.748 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [96ms]
+2023-12-19 08:05:18.884 [info] > git status -z -uall [126ms]
+2023-12-19 08:05:59.989 [info] > git ls-files --stage -- /mnt/c/Users/ericw/mynewrepo/run.py [15ms]
+2023-12-19 08:06:00.053 [info] > git show --textconv :run.py [84ms]
+2023-12-19 08:06:00.094 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [100ms]
+2023-12-19 08:06:42.937 [info] > git config --get commit.template [24ms]
+2023-12-19 08:06:43.124 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [203ms]
+2023-12-19 08:06:43.834 [info] > git status -z -uall [543ms]
+2023-12-19 08:08:54.638 [info] > git check-ignore -v -z --stdin [65ms]
+2023-12-19 08:09:08.238 [info] > git config --get commit.template [28ms]
+2023-12-19 08:09:08.366 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [141ms]
+2023-12-19 08:09:08.510 [info] > git status -z -uall [131ms]
+2023-12-19 08:09:09.075 [info] > git fetch [876ms]
+2023-12-19 08:09:09.075 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-12-19 08:09:09.096 [info] > git config --get commit.template [12ms]
+2023-12-19 08:09:09.195 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [105ms]
+2023-12-19 08:09:09.365 [info] > git status -z -uall [155ms]
+2023-12-19 08:09:11.283 [info] > git ls-files --stage -- /mnt/c/Users/ericw/mynewrepo/app/__init__.py [12ms]
+2023-12-19 08:09:11.314 [info] > git show --textconv :app/__init__.py [49ms]
+2023-12-19 08:09:11.315 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [28ms]
+2023-12-19 08:27:04.739 [info] > git fetch [872ms]
+2023-12-19 08:27:04.739 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-12-19 08:27:04.759 [info] > git config --get commit.template [13ms]
+2023-12-19 08:27:04.849 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [97ms]
+2023-12-19 08:27:04.997 [info] > git status -z -uall [137ms]
+2023-12-19 08:27:06.551 [info] > git ls-files --stage -- /mnt/c/Users/ericw/mynewrepo/README.md [74ms]
+2023-12-19 08:27:06.565 [info] > git show --textconv :README.md [94ms]
+2023-12-19 08:27:06.618 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [62ms]
+2023-12-19 08:29:00.486 [info] > git config --get commit.template [23ms]
+2023-12-19 08:29:00.635 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [161ms]
+2023-12-19 08:29:00.769 [info] > git status -z -uall [126ms]
+2023-12-19 08:32:56.943 [info] > git fetch [960ms]
+2023-12-19 08:32:56.943 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-12-19 08:32:56.965 [info] > git config --get commit.template [13ms]
+2023-12-19 08:32:57.074 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [117ms]
+2023-12-19 08:32:57.214 [info] > git status -z -uall [129ms]
+2023-12-19 08:33:01.573 [info] > git ls-files --stage -- /mnt/c/Users/ericw/mynewrepo/app/__init__.py [16ms]
+2023-12-19 08:33:01.623 [info] > git cat-file -s ca97fcc690d5bb665e64e0976f9adeee01866d7f [43ms]
+2023-12-19 08:33:01.624 [info] > git show --textconv :app/__init__.py [73ms]
+2023-12-19 08:35:58.137 [info] > git fetch [912ms]
+2023-12-19 08:35:58.137 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-12-19 08:35:58.175 [info] > git config --get commit.template [12ms]
+2023-12-19 08:35:58.275 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [107ms]
+2023-12-19 08:35:58.398 [info] > git status -z -uall [106ms]
+2023-12-19 08:40:06.582 [info] > git fetch [875ms]
+2023-12-19 08:40:06.582 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-12-19 08:40:06.600 [info] > git config --get commit.template [11ms]
+2023-12-19 08:40:06.672 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [78ms]
+2023-12-19 08:40:06.798 [info] > git status -z -uall [117ms]
+2023-12-19 08:40:45.726 [info] > git merge-base refs/heads/main refs/remotes/origin/main [144ms]
+2023-12-19 08:40:45.867 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [136ms]
+2023-12-19 08:40:53.121 [info] > git add -A -- /mnt/c/Users/ericw/mynewrepo/app/__init__.py [100ms]
+2023-12-19 08:40:53.143 [info] > git config --get commit.template [13ms]
+2023-12-19 08:40:53.222 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [86ms]
+2023-12-19 08:40:53.380 [info] > git status -z -uall [149ms]
+2023-12-19 08:41:26.257 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [459ms]
+2023-12-19 08:41:26.340 [info] > git config --get commit.template [67ms]
+2023-12-19 08:41:26.374 [info] > git config --get commit.template [24ms]
+2023-12-19 08:41:26.643 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [285ms]
+2023-12-19 08:41:26.803 [info] > git status -z -uall [149ms]
+2023-12-19 08:41:26.845 [info] > git config --get commit.template [11ms]
+2023-12-19 08:41:26.903 [info] > git merge-base refs/heads/main refs/remotes/origin/main [78ms]
+2023-12-19 08:41:26.977 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [133ms]
+2023-12-19 08:41:27.004 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [94ms]
+2023-12-19 08:41:27.181 [info] > git status -z -uall [193ms]
+2023-12-19 08:46:18.873 [info] > git diff --shortstat 3380149b4605ce3d2f875e8fc0286cd58c4e165d...27eb2754c92c5be09b560f58b43274da479e7b22 [101ms]
+2023-12-19 08:46:18.912 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent --author-date-order 3380149b4605ce3d2f875e8fc0286cd58c4e165d..27eb2754c92c5be09b560f58b43274da479e7b22 [147ms]
+2023-12-19 08:46:29.888 [info] > git diff --name-status -z --diff-filter=ADMR 3380149b4605ce3d2f875e8fc0286cd58c4e165d...27eb2754c92c5be09b560f58b43274da479e7b22 [487ms]
+2023-12-19 08:46:30.435 [info] > git check-ignore -v -z --stdin [33ms]
+2023-12-19 08:51:00.582 [info] > git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 27eb2754c92c5be09b560f58b43274da479e7b22 [176ms]
+2023-12-19 08:51:00.676 [info] > git diff --name-status -z --diff-filter=ADMR 3380149b4605ce3d2f875e8fc0286cd58c4e165d...27eb2754c92c5be09b560f58b43274da479e7b22 [88ms]
+2023-12-19 08:51:01.245 [info] > git check-ignore -v -z --stdin [32ms]
+2023-12-19 08:51:02.301 [info] > git ls-tree -l 3380149b4605ce3d2f875e8fc0286cd58c4e165d -- /mnt/c/Users/ericw/mynewrepo/app/__init__.py [101ms]
+2023-12-19 08:51:02.305 [info] > git ls-tree -l 27eb2754c92c5be09b560f58b43274da479e7b22 -- /mnt/c/Users/ericw/mynewrepo/app/__init__.py [94ms]
+2023-12-19 08:51:02.335 [info] > git show --textconv 27eb2754c92c5be09b560f58b43274da479e7b22:app/__init__.py [144ms]
+2023-12-19 08:51:02.336 [info] > git show --textconv 3380149b4605ce3d2f875e8fc0286cd58c4e165d:app/__init__.py [154ms]
+2023-12-19 08:51:02.751 [info] > git check-ignore -v -z --stdin [29ms]
+2023-12-19 09:05:58.590 [info] > git ls-tree -l 3380149b4605ce3d2f875e8fc0286cd58c4e165d -- /mnt/c/Users/ericw/mynewrepo/app/__init__.py [113ms]
+2023-12-19 09:05:58.591 [info] > git ls-tree -l 27eb2754c92c5be09b560f58b43274da479e7b22 -- /mnt/c/Users/ericw/mynewrepo/app/__init__.py [104ms]
+2023-12-19 09:06:15.490 [info] > git ls-files --stage -- /mnt/c/Users/ericw/mynewrepo/app/__init__.py [28ms]
+2023-12-19 09:06:15.544 [info] > git show --textconv :app/__init__.py [88ms]
+2023-12-19 09:06:15.553 [info] > git cat-file -s 7884f65526fcfb664cd8ce5b07260290de22f467 [56ms]
+2023-12-19 09:06:33.999 [info] > git push origin main:main [1504358ms]
+2023-12-19 09:06:33.999 [info] git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-12-19 09:06:36.984 [info] > git config --get commit.template [41ms]
+2023-12-19 09:06:37.091 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [137ms]
+2023-12-19 09:06:37.238 [info] > git status -z -uall [137ms]
+2023-12-19 09:06:38.196 [info] > git fetch [948ms]
+2023-12-19 09:06:38.196 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-12-19 09:06:38.320 [info] > git config --get commit.template [78ms]
+2023-12-19 09:06:38.534 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [277ms]
+2023-12-19 09:06:38.650 [info] > git status -z -uall [107ms]

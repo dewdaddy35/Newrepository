@@ -1,0 +1,254 @@
+2023-12-18 17:47:09.077 [info] Log level: Info
+2023-12-18 17:47:09.077 [info] Validating found git in: "git"
+2023-12-18 17:47:09.077 [info] Using git "2.34.1" from "git"
+2023-12-18 17:47:09.077 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-18 17:47:09.077 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-12-18 17:47:09.077 [info] Open repository: /home/dew/Code/SDGKU/FSDI_111
+2023-12-18 17:47:09.077 [info] > git fetch [24ms]
+2023-12-18 17:47:09.081 [info] > git rev-parse --show-toplevel [22ms]
+2023-12-18 17:47:09.081 [info] > git config --get commit.template [24ms]
+2023-12-18 17:47:09.085 [info] > git config --get commit.template [5ms]
+2023-12-18 17:47:09.088 [info] No remotes found in the git config file.
+2023-12-18 17:47:09.089 [info] > git rev-parse --show-toplevel [5ms]
+2023-12-18 17:47:09.095 [info] No remotes found in the git config file.
+2023-12-18 17:47:09.096 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2023-12-18 17:47:09.101 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-12-18 17:47:09.103 [info] > git config --get commit.template [2ms]
+2023-12-18 17:47:09.103 [info] No remotes found in the git config file.
+2023-12-18 17:47:09.108 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-12-18 17:47:09.114 [info] > git status -z -uall [4ms]
+2023-12-18 17:47:09.568 [info] > git check-ignore -v -z --stdin [1ms]
+2023-12-18 17:47:10.266 [info] No remotes found in the git config file.
+2023-12-18 17:47:10.267 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-18 17:47:10.267 [info] > git config --get commit.template [3ms]
+2023-12-18 17:47:10.273 [info] > git status -z -uall [3ms]
+2023-12-18 17:48:15.603 [info] > git check-ignore -v -z --stdin [1ms]
+2023-12-18 17:48:34.555 [info] No remotes found in the git config file.
+2023-12-18 17:48:34.556 [info] > git config --get commit.template [0ms]
+2023-12-18 17:48:34.559 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-18 17:48:34.565 [info] > git status -z -uall [4ms]
+2023-12-18 17:48:38.261 [info] > git show --textconv :app/route.py [3ms]
+2023-12-18 17:48:38.262 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/app/route.py [1ms]
+2023-12-18 17:48:43.936 [info] > git config --get commit.template [1ms]
+2023-12-18 17:48:43.940 [info] No remotes found in the git config file.
+2023-12-18 17:48:43.940 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-18 17:48:43.947 [info] > git status -z -uall [4ms]
+2023-12-18 18:10:24.134 [info] > git fetch [3ms]
+2023-12-18 18:10:24.142 [info] No remotes found in the git config file.
+2023-12-18 18:10:24.143 [info] > git config --get commit.template [4ms]
+2023-12-18 18:10:24.143 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-18 18:10:24.151 [info] > git status -z -uall [4ms]
+2023-12-18 18:10:25.224 [info] No remotes found in the git config file.
+2023-12-18 18:10:25.225 [info] > git config --get commit.template [4ms]
+2023-12-18 18:10:25.225 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-18 18:10:25.230 [info] > git status -z -uall [3ms]
+2023-12-18 18:10:27.849 [info] > git show --textconv :app/routes.py [4ms]
+2023-12-18 18:10:27.849 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/app/routes.py [1ms]
+2023-12-18 18:13:24.197 [info] > git fetch [9ms]
+2023-12-18 18:13:24.203 [info] > git config --get commit.template [1ms]
+2023-12-18 18:13:24.207 [info] No remotes found in the git config file.
+2023-12-18 18:13:24.207 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2023-12-18 18:13:24.214 [info] > git status -z -uall [3ms]
+2023-12-18 18:13:25.277 [info] > git config --get commit.template [1ms]
+2023-12-18 18:13:25.280 [info] No remotes found in the git config file.
+2023-12-18 18:13:25.280 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2023-12-18 18:13:25.305 [info] > git status -z -uall [22ms]
+2023-12-18 18:13:25.388 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/app/routes.py [1ms]
+2023-12-18 18:13:25.495 [info] > git show --textconv :app/routes.py [0ms]
+2023-12-18 18:16:24.242 [info] > git fetch [2ms]
+2023-12-18 18:16:24.248 [info] > git config --get commit.template [1ms]
+2023-12-18 18:16:24.251 [info] No remotes found in the git config file.
+2023-12-18 18:16:24.251 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2023-12-18 18:16:24.258 [info] > git status -z -uall [4ms]
+2023-12-18 18:16:25.351 [info] > git config --get commit.template [0ms]
+2023-12-18 18:16:25.355 [info] No remotes found in the git config file.
+2023-12-18 18:16:25.355 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-18 18:16:25.361 [info] > git status -z -uall [3ms]
+2023-12-18 18:16:25.460 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/app/routes.py [1ms]
+2023-12-18 18:16:25.545 [info] > git show --textconv :app/routes.py [75ms]
+2023-12-18 18:18:01.212 [info] > git config --get commit.template [1ms]
+2023-12-18 18:18:01.217 [info] No remotes found in the git config file.
+2023-12-18 18:18:01.221 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-12-18 18:18:01.228 [info] > git status -z -uall [3ms]
+2023-12-18 18:18:37.806 [info] No remotes found in the git config file.
+2023-12-18 18:18:37.806 [info] > git config --get commit.template [5ms]
+2023-12-18 18:18:37.807 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-12-18 18:18:37.815 [info] > git status -z -uall [5ms]
+2023-12-18 18:19:24.287 [info] > git fetch [6ms]
+2023-12-18 18:19:24.292 [info] > git config --get commit.template [2ms]
+2023-12-18 18:19:24.295 [info] No remotes found in the git config file.
+2023-12-18 18:19:24.296 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-18 18:19:24.303 [info] > git status -z -uall [3ms]
+2023-12-18 18:19:25.380 [info] No remotes found in the git config file.
+2023-12-18 18:19:25.380 [info] > git config --get commit.template [5ms]
+2023-12-18 18:19:25.380 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-18 18:19:25.386 [info] > git status -z -uall [3ms]
+2023-12-18 18:19:25.619 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/app/routes.py [115ms]
+2023-12-18 18:19:25.627 [info] > git show --textconv :app/routes.py [0ms]
+2023-12-18 18:20:25.970 [info] > git config --get commit.template [1ms]
+2023-12-18 18:20:25.976 [info] No remotes found in the git config file.
+2023-12-18 18:20:25.976 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-18 18:20:25.984 [info] > git status -z -uall [4ms]
+2023-12-18 18:22:06.394 [info] No remotes found in the git config file.
+2023-12-18 18:22:06.398 [info] > git config --get commit.template [5ms]
+2023-12-18 18:22:06.398 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-18 18:22:06.404 [info] > git status -z -uall [3ms]
+2023-12-18 18:22:24.350 [info] > git fetch [11ms]
+2023-12-18 18:22:24.364 [info] > git config --get commit.template [4ms]
+2023-12-18 18:22:24.364 [info] No remotes found in the git config file.
+2023-12-18 18:22:24.365 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-18 18:22:24.371 [info] > git status -z -uall [3ms]
+2023-12-18 18:22:25.451 [info] > git config --get commit.template [1ms]
+2023-12-18 18:22:25.456 [info] No remotes found in the git config file.
+2023-12-18 18:22:25.458 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-18 18:22:25.465 [info] > git status -z -uall [3ms]
+2023-12-18 18:22:25.537 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/app/routes.py [2ms]
+2023-12-18 18:22:25.557 [info] > git show --textconv :app/routes.py [1ms]
+2023-12-18 18:22:30.497 [info] No remotes found in the git config file.
+2023-12-18 18:22:30.497 [info] > git config --get commit.template [6ms]
+2023-12-18 18:22:30.497 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-18 18:22:30.503 [info] > git status -z -uall [3ms]
+2023-12-18 18:22:54.328 [info] > git config --get commit.template [6ms]
+2023-12-18 18:22:54.328 [info] No remotes found in the git config file.
+2023-12-18 18:22:54.328 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-18 18:22:54.334 [info] > git status -z -uall [3ms]
+2023-12-18 18:27:27.498 [info] > git fetch [2ms]
+2023-12-18 18:27:27.506 [info] No remotes found in the git config file.
+2023-12-18 18:27:27.507 [info] > git config --get commit.template [4ms]
+2023-12-18 18:27:27.507 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-18 18:27:27.515 [info] > git status -z -uall [3ms]
+2023-12-18 18:27:28.222 [info] > git check-ignore -v -z --stdin [1ms]
+2023-12-18 18:27:28.601 [info] > git config --get commit.template [3ms]
+2023-12-18 18:27:28.601 [info] No remotes found in the git config file.
+2023-12-18 18:27:28.602 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-18 18:27:28.608 [info] > git status -z -uall [3ms]
+2023-12-18 18:27:28.691 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/app/routes.py [1ms]
+2023-12-18 18:27:28.698 [info] > git show --textconv :app/routes.py [1ms]
+2023-12-18 18:28:30.915 [info] > git config --get commit.template [2ms]
+2023-12-18 18:28:30.919 [info] No remotes found in the git config file.
+2023-12-18 18:28:30.920 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-18 18:28:30.926 [info] > git status -z -uall [3ms]
+2023-12-18 18:28:35.952 [info] No remotes found in the git config file.
+2023-12-18 18:28:35.953 [info] > git config --get commit.template [5ms]
+2023-12-18 18:28:35.953 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-18 18:28:35.959 [info] > git status -z -uall [3ms]
+2023-12-18 18:30:27.549 [info] > git fetch [4ms]
+2023-12-18 18:30:27.558 [info] No remotes found in the git config file.
+2023-12-18 18:30:27.558 [info] > git config --get commit.template [4ms]
+2023-12-18 18:30:27.558 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2023-12-18 18:30:27.566 [info] > git status -z -uall [5ms]
+2023-12-18 18:30:28.641 [info] > git config --get commit.template [0ms]
+2023-12-18 18:30:28.645 [info] No remotes found in the git config file.
+2023-12-18 18:30:28.645 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2023-12-18 18:30:28.651 [info] > git status -z -uall [3ms]
+2023-12-18 18:30:28.740 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/app/routes.py [1ms]
+2023-12-18 18:30:28.840 [info] > git show --textconv :app/routes.py [0ms]
+2023-12-18 18:33:27.601 [info] > git fetch [2ms]
+2023-12-18 18:33:27.606 [info] > git config --get commit.template [1ms]
+2023-12-18 18:33:27.609 [info] No remotes found in the git config file.
+2023-12-18 18:33:27.609 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2023-12-18 18:33:27.617 [info] > git status -z -uall [4ms]
+2023-12-18 18:33:28.697 [info] > git config --get commit.template [1ms]
+2023-12-18 18:33:28.701 [info] No remotes found in the git config file.
+2023-12-18 18:33:28.701 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2023-12-18 18:33:28.708 [info] > git status -z -uall [3ms]
+2023-12-18 18:33:28.792 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/app/routes.py [0ms]
+2023-12-18 18:33:28.800 [info] > git show --textconv :app/routes.py [1ms]
+2023-12-18 18:35:37.711 [info] > git config --get commit.template [1ms]
+2023-12-18 18:35:37.711 [info] No remotes found in the git config file.
+2023-12-18 18:35:37.715 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-18 18:35:37.721 [info] > git status -z -uall [3ms]
+2023-12-18 18:36:27.705 [info] > git fetch [3ms]
+2023-12-18 18:36:27.710 [info] No remotes found in the git config file.
+2023-12-18 18:36:27.713 [info] > git config --get commit.template [3ms]
+2023-12-18 18:36:27.713 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-18 18:36:27.719 [info] > git status -z -uall [3ms]
+2023-12-18 18:36:28.861 [info] > git config --get commit.template [1ms]
+2023-12-18 18:36:28.869 [info] No remotes found in the git config file.
+2023-12-18 18:36:28.869 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2023-12-18 18:36:28.877 [info] > git status -z -uall [4ms]
+2023-12-18 18:36:28.904 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/app/routes.py [1ms]
+2023-12-18 18:36:28.962 [info] > git show --textconv :app/routes.py [0ms]
+2023-12-18 18:39:27.763 [info] > git fetch [2ms]
+2023-12-18 18:39:27.768 [info] > git config --get commit.template [1ms]
+2023-12-18 18:39:27.771 [info] No remotes found in the git config file.
+2023-12-18 18:39:27.771 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2023-12-18 18:39:27.777 [info] > git status -z -uall [3ms]
+2023-12-18 18:39:28.896 [info] > git config --get commit.template [4ms]
+2023-12-18 18:39:28.897 [info] No remotes found in the git config file.
+2023-12-18 18:39:28.897 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-18 18:39:28.902 [info] > git status -z -uall [3ms]
+2023-12-18 18:39:28.958 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/app/routes.py [1ms]
+2023-12-18 18:39:29.096 [info] > git show --textconv :app/routes.py [83ms]
+2023-12-18 18:42:27.890 [info] > git fetch [10ms]
+2023-12-18 18:42:27.897 [info] > git config --get commit.template [0ms]
+2023-12-18 18:42:27.900 [info] No remotes found in the git config file.
+2023-12-18 18:42:27.901 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-18 18:42:27.907 [info] > git status -z -uall [3ms]
+2023-12-18 18:42:28.975 [info] > git config --get commit.template [1ms]
+2023-12-18 18:42:28.979 [info] No remotes found in the git config file.
+2023-12-18 18:42:28.980 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-18 18:42:28.986 [info] > git status -z -uall [3ms]
+2023-12-18 18:42:29.073 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/app/routes.py [1ms]
+2023-12-18 18:42:29.086 [info] > git show --textconv :app/routes.py [0ms]
+2023-12-18 18:42:56.412 [info] > git show --textconv :run_local.sh [4ms]
+2023-12-18 18:42:56.412 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/run_local.sh [1ms]
+2023-12-18 18:44:13.842 [info] > git config --get commit.template [1ms]
+2023-12-18 18:44:13.847 [info] No remotes found in the git config file.
+2023-12-18 18:44:13.848 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-18 18:44:13.855 [info] > git status -z -uall [4ms]
+2023-12-18 18:47:05.183 [info] > git fetch [6ms]
+2023-12-18 18:47:05.189 [info] > git config --get commit.template [7ms]
+2023-12-18 18:47:05.193 [info] No remotes found in the git config file.
+2023-12-18 18:47:05.193 [info] > git config --get commit.template [5ms]
+2023-12-18 18:47:05.193 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2023-12-18 18:47:05.197 [info] No remotes found in the git config file.
+2023-12-18 18:47:05.198 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-18 18:47:05.206 [info] > git status -z -uall [5ms]
+2023-12-18 18:47:06.379 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/run_local.sh [1ms]
+2023-12-18 18:47:06.386 [info] > git show --textconv :run_local.sh [1ms]
+2023-12-18 18:47:10.213 [info] > git config --get commit.template [1ms]
+2023-12-18 18:47:10.217 [info] No remotes found in the git config file.
+2023-12-18 18:47:10.217 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2023-12-18 18:47:10.225 [info] > git status -z -uall [3ms]
+2023-12-18 18:47:21.254 [info] > git show --textconv :app/routes.py [5ms]
+2023-12-18 18:47:21.254 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/app/routes.py [1ms]
+2023-12-18 18:50:05.247 [info] > git fetch [6ms]
+2023-12-18 18:50:05.252 [info] > git config --get commit.template [1ms]
+2023-12-18 18:50:05.255 [info] No remotes found in the git config file.
+2023-12-18 18:50:05.256 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-18 18:50:05.261 [info] > git status -z -uall [3ms]
+2023-12-18 18:50:06.342 [info] > git config --get commit.template [1ms]
+2023-12-18 18:50:06.346 [info] No remotes found in the git config file.
+2023-12-18 18:50:06.346 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2023-12-18 18:50:06.353 [info] > git status -z -uall [4ms]
+2023-12-18 18:50:06.437 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/app/routes.py [0ms]
+2023-12-18 18:50:06.540 [info] > git show --textconv :app/routes.py [1ms]
+2023-12-18 18:52:52.498 [info] > git show --textconv :run_local.sh [4ms]
+2023-12-18 18:52:52.499 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/run_local.sh [2ms]
+2023-12-18 18:53:41.475 [info] > git fetch [4ms]
+2023-12-18 18:53:41.491 [info] No remotes found in the git config file.
+2023-12-18 18:53:41.491 [info] > git config --get commit.template [6ms]
+2023-12-18 18:53:41.491 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-18 18:53:41.498 [info] > git status -z -uall [3ms]
+2023-12-18 18:53:42.595 [info] No remotes found in the git config file.
+2023-12-18 18:53:42.595 [info] > git config --get commit.template [4ms]
+2023-12-18 18:53:42.595 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2023-12-18 18:53:42.601 [info] > git status -z -uall [3ms]
+2023-12-18 18:53:42.664 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/run_local.sh [0ms]
+2023-12-18 18:53:42.671 [info] > git show --textconv :run_local.sh [1ms]
+2023-12-18 18:53:44.075 [info] > git show --textconv :app/routes.py [4ms]
+2023-12-18 18:53:44.076 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/app/routes.py [1ms]
+2023-12-18 18:53:45.922 [info] > git show --textconv :run_local.sh [7ms]
+2023-12-18 18:53:45.923 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/run_local.sh [5ms]
+2023-12-19 07:05:08.152 [info] > git fetch [5ms]
+2023-12-19 07:05:08.164 [info] No remotes found in the git config file.
+2023-12-19 07:05:08.164 [info] > git config --get commit.template [5ms]
+2023-12-19 07:05:08.164 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-19 07:05:08.171 [info] > git status -z -uall [3ms]
+2023-12-19 07:05:09.238 [info] > git config --get commit.template [3ms]
+2023-12-19 07:05:09.239 [info] No remotes found in the git config file.
+2023-12-19 07:05:09.239 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-19 07:05:09.244 [info] > git status -z -uall [3ms]
+2023-12-19 07:05:09.340 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/run_local.sh [0ms]
+2023-12-19 07:05:09.347 [info] > git show --textconv :run_local.sh [0ms]

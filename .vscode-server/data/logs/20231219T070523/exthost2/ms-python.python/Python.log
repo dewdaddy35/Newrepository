@@ -1,0 +1,42 @@
+2023-12-19 09:03:10.864 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2023-12-19 09:03:10.864 [info] Experiment 'pythonREPLSmartSend' is active
+2023-12-19 09:03:10.864 [info] Experiment 'pythonTestAdapter' is active
+2023-12-19 09:03:10.881 [info] Default formatter is set to null for workspace /home/dew/FSDI_111
+2023-12-19 09:03:11.090 [info] Test server listening.
+2023-12-19 09:03:11.118 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-19 09:03:11.118 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-19 09:03:11.118 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-19 09:03:11.118 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-19 09:03:11.168 [info] > C:\Users\ericw\AppData\Local\Programs\Python\Python312\python.exe -I ~/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2023-12-19 09:03:11.180 [info] > ./venv/bin/python -I ~/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2023-12-19 09:03:11.202 [error] [Error: Command failed: C:\Users\ericw\AppData\Local\Programs\Python\Python312\python.exe -I /home/dew/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py /home/dew/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+/bin/sh: 1: C:UsersericwAppDataLocalProgramsPythonPython312python.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:525:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\ericw\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -I /home/dew/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py /home/dew/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py'
+}
+2023-12-19 09:03:13.207 [info] > C:\Users\ericw\AppData\Local\Programs\Python\Python312\python.exe -I ~/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2023-12-19 09:03:13.228 [error] [Error: Command failed: C:\Users\ericw\AppData\Local\Programs\Python\Python312\python.exe -I /home/dew/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py /home/dew/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+/bin/sh: 1: C:UsersericwAppDataLocalProgramsPythonPython312python.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:525:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\ericw\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -I /home/dew/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py /home/dew/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py'
+}
+2023-12-19 09:03:13.239 [info] Python interpreter path: ./venv/bin/python
+2023-12-19 09:03:14.092 [info] Starting Pylance language server.

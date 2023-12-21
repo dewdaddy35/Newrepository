@@ -1,0 +1,16 @@
+2023-12-19 10:07:04.701 [info] (Client) Pylance async client (2023.12.1) started with python extension (2023.22.1)
+2023-12-19 10:07:04.998 [info] [Info  - 10:07:04 AM] (97142) Pylance language server 2023.12.1 (pyright a78e2b10) starting
+2023-12-19 10:07:04.998 [info] [Info  - 10:07:04 AM] (97142) Server root directory: /home/dew/.vscode-server/extensions/ms-python.vscode-pylance-2023.12.1/dist
+2023-12-19 10:07:04.998 [info] [Info  - 10:07:04 AM] (97142) Starting service instance "mynewrepo"
+2023-12-19 10:07:05.028 [info] [Info  - 10:07:05 AM] (97142) Setting pythonPath for service "mynewrepo": "/mnt/c/Users/ericw/mynewrepo/venv/bin/python"
+2023-12-19 10:07:05.028 [info] [Info  - 10:07:05 AM] (97142) Setting environmentName for service "mynewrepo": "3.10.12 (venv venv)"
+2023-12-19 10:07:05.079 [info] [Info  - 10:07:05 AM] (97142) Assuming Python version 3.10
+2023-12-19 10:07:05.170 [info] [Info  - 10:07:05 AM] (97142) Auto-excluding /mnt/c/Users/ericw/mynewrepo/venv
+2023-12-19 10:07:05.172 [info] [Info  - 10:07:05 AM] (97142) Found 2 source files
+2023-12-19 10:25:19.578 [info] [Info  - 10:25:19 AM] (97142) Found 3 source files
+2023-12-19 10:38:42.693 [info] [Info  - 10:38:42 AM] (97142) Setting pythonPath for service "mynewrepo": "/mnt/c/Users/ericw/mynewrepo/venv/bin/python"
+2023-12-19 10:38:42.693 [info] [Info  - 10:38:42 AM] (97142) Setting environmentName for service "mynewrepo": "3.10.12 (venv venv)"
+2023-12-19 10:38:42.732 [info] [Info  - 10:38:42 AM] (97142) Assuming Python version 3.10
+2023-12-19 10:38:42.794 [info] [Info  - 10:38:42 AM] (97142) Auto-excluding /mnt/c/Users/ericw/mynewrepo/venv
+2023-12-19 10:38:42.795 [info] [Info  - 10:38:42 AM] (97142) Found 3 source files
+2023-12-20 17:10:45.796 [info] [Info  - 5:10:45 PM] (97142) Found 2 source files

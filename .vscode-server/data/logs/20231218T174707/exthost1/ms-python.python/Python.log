@@ -1,0 +1,49 @@
+2023-12-18 17:49:05.742 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2023-12-18 17:49:05.742 [info] Experiment 'pythonREPLSmartSend' is active
+2023-12-18 17:49:05.742 [info] Experiment 'pythonTestAdapter' is active
+2023-12-18 17:49:05.758 [info] Default formatter is set to null for workspace /home/dew/Code/SDGKU/FSDI_111
+2023-12-18 17:49:05.959 [info] Test server listening.
+2023-12-18 17:49:06.024 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-18 17:49:06.024 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-18 17:49:06.024 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-18 17:49:06.024 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-18 17:49:06.049 [info] > C:\Users\ericw\AppData\Local\Programs\Python\Python312\python.exe -I ~/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2023-12-18 17:49:06.058 [info] > ./venv/bin/python -I ~/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2023-12-18 17:49:06.091 [error] [Error: Command failed: C:\Users\ericw\AppData\Local\Programs\Python\Python312\python.exe -I /home/dew/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py /home/dew/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+/bin/sh: 1: C:UsersericwAppDataLocalProgramsPythonPython312python.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:525:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:302:5)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\ericw\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -I /home/dew/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py /home/dew/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py'
+}
+2023-12-18 17:49:08.099 [info] > C:\Users\ericw\AppData\Local\Programs\Python\Python312\python.exe -I ~/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2023-12-18 17:49:08.381 [error] [Error: Command failed: C:\Users\ericw\AppData\Local\Programs\Python\Python312\python.exe -I /home/dew/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py /home/dew/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+/bin/sh: 1: C:UsersericwAppDataLocalProgramsPythonPython312python.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:525:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\ericw\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -I /home/dew/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py /home/dew/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py'
+}
+2023-12-18 17:49:08.395 [info] Python interpreter path: ./venv/bin/python
+2023-12-18 17:49:09.257 [info] Starting Pylance language server.
+2023-12-18 18:18:00.406 [info] Discover tests for workspace name: FSDI_111 - uri: /home/dew/Code/SDGKU/FSDI_111/app/routes.py
+2023-12-18 18:18:36.963 [info] Discover tests for workspace name: FSDI_111 - uri: /home/dew/Code/SDGKU/FSDI_111/app/routes.py
+2023-12-18 18:20:25.144 [info] Discover tests for workspace name: FSDI_111 - uri: /home/dew/Code/SDGKU/FSDI_111/app/routes.py
+2023-12-18 18:22:05.556 [info] Discover tests for workspace name: FSDI_111 - uri: /home/dew/Code/SDGKU/FSDI_111/app/routes.py
+2023-12-18 18:22:27.002 [info] Discover tests for workspace name: FSDI_111 - uri: /home/dew/Code/SDGKU/FSDI_111/app/routes.py
+2023-12-18 18:22:53.463 [info] Discover tests for workspace name: FSDI_111 - uri: /home/dew/Code/SDGKU/FSDI_111/app/routes.py
+2023-12-18 18:28:30.060 [info] Discover tests for workspace name: FSDI_111 - uri: /home/dew/Code/SDGKU/FSDI_111/app/routes.py
+2023-12-18 18:28:34.902 [info] Discover tests for workspace name: FSDI_111 - uri: /home/dew/Code/SDGKU/FSDI_111/app/routes.py
+2023-12-18 18:35:36.900 [info] Discover tests for workspace name: FSDI_111 - uri: /home/dew/Code/SDGKU/FSDI_111/app/routes.py

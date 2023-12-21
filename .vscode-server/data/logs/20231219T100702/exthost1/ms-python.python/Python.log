@@ -1,0 +1,13 @@
+2023-12-19 10:07:03.710 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2023-12-19 10:07:03.710 [info] Experiment 'pythonREPLSmartSend' is active
+2023-12-19 10:07:03.710 [info] Experiment 'pythonTestAdapter' is active
+2023-12-19 10:07:03.710 [info] Default formatter is set to null for workspace /mnt/c/Users/ericw/mynewrepo
+2023-12-19 10:07:03.710 [info] Test server listening.
+2023-12-19 10:07:03.710 [info] Python interpreter path: ./venv/bin/python
+2023-12-19 10:07:05.010 [info] Starting Pylance language server.
+2023-12-19 10:26:21.054 [info] Discover tests for workspace name: mynewrepo - uri: /mnt/c/Users/ericw/mynewrepo/run.py
+2023-12-19 10:35:37.422 [info] Discover tests for workspace name: mynewrepo - uri: /mnt/c/Users/ericw/mynewrepo/run.py
+2023-12-19 10:37:12.613 [info] Discover tests for workspace name: mynewrepo - uri: /mnt/c/Users/ericw/mynewrepo/app/__init__.py
+2023-12-19 10:37:34.432 [info] Discover tests for workspace name: mynewrepo - uri: /mnt/c/Users/ericw/mynewrepo/app/__init__.py
+2023-12-19 10:38:21.002 [info] Discover tests for workspace name: mynewrepo - uri: /mnt/c/Users/ericw/mynewrepo/app/__init__.py
+2023-12-20 17:08:32.143 [info] Discover tests for workspace name: mynewrepo - uri: /mnt/c/Users/ericw/mynewrepo/app/__init__.py
