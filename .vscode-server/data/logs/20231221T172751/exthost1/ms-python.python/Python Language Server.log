@@ -1,0 +1,24 @@
+2023-12-21 17:28:57.181 [info] (Client) Pylance async client (2023.12.1) started with python extension (2023.22.1)
+2023-12-21 17:28:57.508 [info] [Info  - 5:28:57 PM] (187897) Pylance language server 2023.12.1 (pyright a78e2b10) starting
+2023-12-21 17:28:57.509 [info] [Info  - 5:28:57 PM] (187897) Server root directory: /home/dew/.vscode-server/extensions/ms-python.vscode-pylance-2023.12.1/dist
+2023-12-21 17:28:57.509 [info] [Info  - 5:28:57 PM] (187897) Starting service instance "task_mgr"
+2023-12-21 17:28:57.534 [info] [Info  - 5:28:57 PM] (187897) Setting pythonPath for service "task_mgr": "/home/dew/Code/SDGKU/task_mgr/venv/bin/python"
+2023-12-21 17:28:57.534 [info] [Info  - 5:28:57 PM] (187897) Setting environmentName for service "task_mgr": "3.10.12 (venv venv)"
+2023-12-21 17:28:57.551 [info] [Info  - 5:28:57 PM] (187897) Assuming Python version 3.10
+2023-12-21 17:28:57.578 [info] [Info  - 5:28:57 PM] (187897) Auto-excluding /home/dew/Code/SDGKU/task_mgr/venv
+2023-12-21 17:28:57.579 [info] [Info  - 5:28:57 PM] (187897) Found 4 source files
+2023-12-21 19:00:22.043 [info] [Error - 7:00:22 PM] Server process exited with code 0.
+2023-12-21 19:00:22.605 [info] (Client) Pylance async client (2023.12.1) started with python extension (2023.22.1)
+2023-12-21 19:00:22.898 [info] [Info  - 7:00:22 PM] (229926) Pylance language server 2023.12.1 (pyright a78e2b10) starting
+2023-12-21 19:00:22.899 [info] [Info  - 7:00:22 PM] (229926) Server root directory: /home/dew/.vscode-server/extensions/ms-python.vscode-pylance-2023.12.1/dist
+2023-12-21 19:00:22.904 [info] [Info  - 7:00:22 PM] (229926) Starting service instance "task_mgr"
+2023-12-21 19:00:22.930 [info] [Info  - 7:00:22 PM] (229926) Setting pythonPath for service "task_mgr": "/home/dew/Code/SDGKU/task_mgr/venv/bin/python"
+2023-12-21 19:00:22.930 [info] [Info  - 7:00:22 PM] (229926) Setting environmentName for service "task_mgr": "3.10.12 (venv venv)"
+2023-12-21 19:00:22.947 [info] [Info  - 7:00:22 PM] (229926) Assuming Python version 3.10
+2023-12-21 19:00:22.979 [info] [Info  - 7:00:22 PM] (229926) Auto-excluding /home/dew/Code/SDGKU/task_mgr/venv
+2023-12-21 19:00:22.980 [info] [Info  - 7:00:22 PM] (229926) Found 4 source files
+2023-12-21 19:19:31.838 [info] [Info  - 7:19:31 PM] (229926) Setting pythonPath for service "task_mgr": "/home/dew/Code/SDGKU/task_mgr/venv/bin/python"
+2023-12-21 19:19:31.838 [info] [Info  - 7:19:31 PM] (229926) Setting environmentName for service "task_mgr": "3.10.12 (venv venv)"
+2023-12-21 19:19:31.853 [info] [Info  - 7:19:31 PM] (229926) Assuming Python version 3.10
+2023-12-21 19:19:31.886 [info] [Info  - 7:19:31 PM] (229926) Auto-excluding /home/dew/Code/SDGKU/task_mgr/venv
+2023-12-21 19:19:31.889 [info] [Info  - 7:19:31 PM] (229926) Found 4 source files

@@ -1,0 +1,30 @@
+2023-12-21 17:24:48.539 [info] Log level: Info
+2023-12-21 17:24:48.539 [info] Validating found git in: "git"
+2023-12-21 17:24:48.539 [info] Using git "2.34.1" from "git"
+2023-12-21 17:24:48.539 [info] > git rev-parse --show-toplevel [2ms]
+2023-12-21 17:24:48.539 [info] > git rev-parse --git-dir --git-common-dir [15ms]
+2023-12-21 17:24:48.539 [info] Open repository: /home/dew
+2023-12-21 17:24:48.539 [info] > git rev-parse --show-toplevel [5ms]
+2023-12-21 17:24:48.539 [info] > git config --get commit.template [8ms]
+2023-12-21 17:24:48.543 [info] > git rev-parse --show-toplevel [4ms]
+2023-12-21 17:24:48.545 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2023-12-21 17:24:48.583 [info] > git status -z -uall [33ms]
+2023-12-21 17:24:48.608 [info] > git config --get commit.template [1ms]
+2023-12-21 17:24:48.611 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2023-12-21 17:24:48.690 [info] > git status -z -uall [76ms]
+2023-12-21 17:24:49.040 [info] > git check-ignore -v -z --stdin [2ms]
+2023-12-21 17:24:49.255 [info] > git fetch [733ms]
+2023-12-21 17:24:49.255 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-12-21 17:24:49.260 [info] > git config --get commit.template [0ms]
+2023-12-21 17:24:49.265 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-12-21 17:24:49.301 [info] > git status -z -uall [31ms]
+2023-12-21 17:24:53.063 [info] > git check-ignore -v -z --stdin [4ms]
+2023-12-21 17:25:05.466 [info] > git check-ignore -v -z --stdin [2ms]
+2023-12-21 17:25:55.925 [info] > git check-ignore -v -z --stdin [2ms]
+2023-12-21 17:26:29.061 [info] > git check-ignore -v -z --stdin [4ms]

@@ -1,0 +1,16 @@
+2023-12-21 17:27:51.584 [info] 
+
+
+
+
+2023-12-21 17:27:51.591 [info] Extension host agent started.
+2023-12-21 17:27:51.818 [info] [127.0.0.1][62801099][ManagementConnection] New connection established.
+2023-12-21 17:27:52.213 [info] [127.0.0.1][641036d8][ExtensionHostConnection] New connection established.
+2023-12-21 17:27:52.218 [info] [127.0.0.1][641036d8][ExtensionHostConnection] <187308> Launched Extension Host Process.
+2023-12-21 19:00:18.192 [info] Getting Manifest... oderwat.indent-rainbow
+2023-12-21 19:00:18.306 [info] Installing extension: oderwat.indent-rainbow
+2023-12-21 19:00:21.141 [warning] Extension signature verification failed with error 'ENOENT': oderwat.indent-rainbow
+2023-12-21 19:00:21.914 [info] Extracted extension to file:///home/dew/.vscode-server/extensions/oderwat.indent-rainbow-8.3.1: oderwat.indent-rainbow
+2023-12-21 19:00:21.924 [info] Renamed to /home/dew/.vscode-server/extensions/oderwat.indent-rainbow-8.3.1
+2023-12-21 19:00:21.926 [info] Extracting extension completed. oderwat.indent-rainbow
+2023-12-21 19:00:21.930 [info] Extension installed successfully: oderwat.indent-rainbow

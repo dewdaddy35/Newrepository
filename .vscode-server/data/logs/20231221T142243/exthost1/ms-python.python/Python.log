@@ -1,0 +1,10 @@
+2023-12-21 14:22:45.139 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2023-12-21 14:22:45.139 [info] Experiment 'pythonREPLSmartSend' is active
+2023-12-21 14:22:45.139 [info] Experiment 'pythonTestAdapter' is active
+2023-12-21 14:22:45.139 [info] Default formatter is set to null for workspace /home/dew/Code/SDGKU/FSDI_111
+2023-12-21 14:22:45.140 [info] Test server listening.
+2023-12-21 14:22:45.222 [info] > ./venv/bin/python -I ~/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2023-12-21 14:22:45.243 [info] Python interpreter path: ./venv/bin/python
+2023-12-21 14:22:46.444 [info] Starting Pylance language server.
+2023-12-21 15:16:05.012 [info] Discover tests for workspace name: undefined - uri: c:/Users/ericw/AppData/Roaming/Code/User/settings.json
+2023-12-21 15:16:12.947 [info] Discover tests for workspace name: undefined - uri: c:/Users/ericw/AppData/Roaming/Code/User/settings.json

@@ -1,0 +1,16 @@
+{
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.autofetch": true,
+    "window.zoomLevel": 1,
+    "grunt.autoDetect": "on",
+    "gulp.autoDetect": "on",
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false
+}

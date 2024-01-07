@@ -1,0 +1,297 @@
+2023-12-21 14:22:45.049 [info] Log level: Info
+2023-12-21 14:22:45.049 [info] Validating found git in: "git"
+2023-12-21 14:22:45.049 [info] Using git "2.34.1" from "git"
+2023-12-21 14:22:45.049 [info] > git rev-parse --show-toplevel [3ms]
+2023-12-21 14:22:45.128 [info] > git rev-parse --git-dir --git-common-dir [81ms]
+2023-12-21 14:22:45.137 [info] Open repository: /home/dew/Code/SDGKU/FSDI_111
+2023-12-21 14:22:45.146 [info] > git fetch [10ms]
+2023-12-21 14:22:45.153 [info] > git rev-parse --show-toplevel [8ms]
+2023-12-21 14:22:45.154 [info] > git config --get commit.template [10ms]
+2023-12-21 14:22:45.158 [info] > git config --get commit.template [6ms]
+2023-12-21 14:22:45.162 [info] No remotes found in the git config file.
+2023-12-21 14:22:45.176 [info] > git rev-parse --show-toplevel [19ms]
+2023-12-21 14:22:45.181 [info] No remotes found in the git config file.
+2023-12-21 14:22:45.188 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [27ms]
+2023-12-21 14:22:45.195 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2023-12-21 14:22:45.197 [info] > git config --get commit.template [2ms]
+2023-12-21 14:22:45.198 [info] No remotes found in the git config file.
+2023-12-21 14:22:45.202 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-12-21 14:22:45.209 [info] > git status -z -uall [4ms]
+2023-12-21 14:22:45.483 [info] > git show --textconv :.gitignore [4ms]
+2023-12-21 14:22:45.484 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/.gitignore [2ms]
+2023-12-21 14:22:45.488 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [1ms]
+2023-12-21 14:22:45.694 [info] > git check-ignore -v -z --stdin [1ms]
+2023-12-21 14:22:46.247 [info] No remotes found in the git config file.
+2023-12-21 14:22:46.247 [info] > git config --get commit.template [4ms]
+2023-12-21 14:22:46.248 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-21 14:22:46.254 [info] > git status -z -uall [3ms]
+2023-12-21 14:22:46.347 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/.gitignore [1ms]
+2023-12-21 14:22:46.350 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [1ms]
+2023-12-21 14:22:46.358 [info] > git show --textconv :.gitignore [1ms]
+2023-12-21 14:22:47.913 [info] > git show --textconv :mc1.md [16ms]
+2023-12-21 14:22:47.913 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/mc1.md [13ms]
+2023-12-21 14:33:57.869 [info] > git fetch [7ms]
+2023-12-21 14:33:57.875 [info] > git config --get commit.template [7ms]
+2023-12-21 14:33:57.879 [info] No remotes found in the git config file.
+2023-12-21 14:33:57.885 [info] > git config --get commit.template [11ms]
+2023-12-21 14:33:57.886 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/mc1.md [2ms]
+2023-12-21 14:33:57.889 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2023-12-21 14:33:57.895 [info] No remotes found in the git config file.
+2023-12-21 14:33:57.895 [info] > git cat-file -s 780a773904d1136aae5e6f3ce35eb4340980bd2b [6ms]
+2023-12-21 14:33:57.896 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-12-21 14:33:57.906 [info] > git status -z -uall [5ms]
+2023-12-21 14:33:57.910 [info] > git show --textconv :mc1.md [5ms]
+2023-12-21 14:33:58.067 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [12ms]
+2023-12-21 14:33:58.072 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2023-12-21 14:33:58.080 [info] > git reflog refs/heads/master --grep-reflog=branch: Created from *. [4ms]
+2023-12-21 14:33:58.086 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2023-12-21 14:33:58.086 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2023-12-21 14:33:59.072 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/mc1.md [1ms]
+2023-12-21 14:33:59.076 [info] > git cat-file -s 780a773904d1136aae5e6f3ce35eb4340980bd2b [0ms]
+2023-12-21 14:33:59.083 [info] > git show --textconv :mc1.md [0ms]
+2023-12-21 14:34:02.907 [info] > git config --get commit.template [1ms]
+2023-12-21 14:34:02.916 [info] No remotes found in the git config file.
+2023-12-21 14:34:02.917 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-21 14:34:02.926 [info] > git status -z -uall [4ms]
+2023-12-21 14:34:15.220 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [7ms]
+2023-12-21 14:34:15.225 [info] > git config --get commit.template [0ms]
+2023-12-21 14:34:15.230 [info] > git config --get commit.template [1ms]
+2023-12-21 14:34:15.233 [info] No remotes found in the git config file.
+2023-12-21 14:34:15.234 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-21 14:34:15.242 [info] > git status -z -uall [4ms]
+2023-12-21 14:34:15.310 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [8ms]
+2023-12-21 14:34:15.314 [info] > git config --get commit.template [5ms]
+2023-12-21 14:34:15.314 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2023-12-21 14:34:15.321 [info] No remotes found in the git config file.
+2023-12-21 14:34:15.321 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-21 14:34:15.325 [info] > git reflog refs/heads/master --grep-reflog=branch: Created from *. [8ms]
+2023-12-21 14:34:15.328 [info] > git status -z -uall [4ms]
+2023-12-21 14:34:15.329 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2023-12-21 14:34:15.329 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2023-12-21 14:34:16.415 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/mc1.md [0ms]
+2023-12-21 14:34:16.419 [info] > git cat-file -s 780a773904d1136aae5e6f3ce35eb4340980bd2b [0ms]
+2023-12-21 14:34:16.430 [info] > git show --textconv :mc1.md [1ms]
+2023-12-21 14:35:47.072 [info] > git config --get commit.template [0ms]
+2023-12-21 14:35:47.077 [info] No remotes found in the git config file.
+2023-12-21 14:35:47.083 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-12-21 14:35:47.087 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/mc1.md [5ms]
+2023-12-21 14:35:47.092 [info] > git status -z -uall [5ms]
+2023-12-21 14:35:47.092 [info] > git cat-file -s 780a773904d1136aae5e6f3ce35eb4340980bd2b [1ms]
+2023-12-21 14:35:47.101 [info] > git show --textconv :mc1.md [1ms]
+2023-12-21 14:36:13.077 [info] > git show --textconv :.gitignore [4ms]
+2023-12-21 14:36:13.077 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/.gitignore [1ms]
+2023-12-21 14:36:13.081 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [0ms]
+2023-12-21 14:36:25.985 [info] > git show --textconv :app/routes.py [4ms]
+2023-12-21 14:36:25.986 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/app/routes.py [1ms]
+2023-12-21 14:36:25.991 [info] > git cat-file -s 2ce826b3a10da84767624be8737bb6a9d1e466dd [1ms]
+2023-12-21 14:36:26.350 [info] > git check-ignore -v -z --stdin [1ms]
+2023-12-21 14:36:57.921 [info] > git fetch [3ms]
+2023-12-21 14:36:57.930 [info] No remotes found in the git config file.
+2023-12-21 14:36:57.931 [info] > git config --get commit.template [4ms]
+2023-12-21 14:36:57.931 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-21 14:36:57.937 [info] > git status -z -uall [3ms]
+2023-12-21 14:36:59.024 [info] > git config --get commit.template [3ms]
+2023-12-21 14:36:59.030 [info] No remotes found in the git config file.
+2023-12-21 14:36:59.031 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-12-21 14:36:59.040 [info] > git status -z -uall [3ms]
+2023-12-21 14:36:59.123 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/app/routes.py [1ms]
+2023-12-21 14:36:59.130 [info] > git cat-file -s 2ce826b3a10da84767624be8737bb6a9d1e466dd [1ms]
+2023-12-21 14:36:59.140 [info] > git show --textconv :app/routes.py [1ms]
+2023-12-21 14:59:23.061 [info] > git fetch [2ms]
+2023-12-21 14:59:23.071 [info] No remotes found in the git config file.
+2023-12-21 14:59:23.071 [info] > git config --get commit.template [4ms]
+2023-12-21 14:59:23.071 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2023-12-21 14:59:23.079 [info] > git status -z -uall [4ms]
+2023-12-21 14:59:24.152 [info] > git config --get commit.template [1ms]
+2023-12-21 14:59:24.156 [info] No remotes found in the git config file.
+2023-12-21 14:59:24.156 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2023-12-21 14:59:24.165 [info] > git status -z -uall [5ms]
+2023-12-21 14:59:24.254 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/app/routes.py [1ms]
+2023-12-21 14:59:24.258 [info] > git cat-file -s 2ce826b3a10da84767624be8737bb6a9d1e466dd [1ms]
+2023-12-21 14:59:24.267 [info] > git show --textconv :app/routes.py [1ms]
+2023-12-21 15:07:03.848 [info] > git check-ignore -v -z --stdin [3ms]
+2023-12-21 15:12:31.824 [info] > git config --get commit.template [6ms]
+2023-12-21 15:12:31.825 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/app/routes.py [1ms]
+2023-12-21 15:12:31.834 [info] > git cat-file -s 2ce826b3a10da84767624be8737bb6a9d1e466dd [4ms]
+2023-12-21 15:12:31.834 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-12-21 15:12:31.847 [info] > git status -z -uall [9ms]
+2023-12-21 15:12:31.851 [info] > git show --textconv :app/routes.py [4ms]
+2023-12-21 15:12:31.956 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2023-12-21 15:12:31.961 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [1ms]
+2023-12-21 15:12:32.816 [info] > git fetch [1004ms]
+2023-12-21 15:12:32.816 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-12-21 15:12:32.825 [info] > git config --get commit.template [0ms]
+2023-12-21 15:12:32.829 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2023-12-21 15:12:32.837 [info] > git status -z -uall [3ms]
+2023-12-21 15:12:33.041 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/app/routes.py [1ms]
+2023-12-21 15:12:33.048 [info] > git cat-file -s 2ce826b3a10da84767624be8737bb6a9d1e466dd [1ms]
+2023-12-21 15:12:33.058 [info] > git show --textconv :app/routes.py [2ms]
+2023-12-21 15:12:36.857 [info] > git config --get commit.template [0ms]
+2023-12-21 15:12:36.861 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2023-12-21 15:12:36.869 [info] > git status -z -uall [4ms]
+2023-12-21 15:13:51.390 [info] > git show --textconv :mc1.md [3ms]
+2023-12-21 15:13:51.390 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/mc1.md [1ms]
+2023-12-21 15:13:51.393 [info] > git cat-file -s 780a773904d1136aae5e6f3ce35eb4340980bd2b [0ms]
+2023-12-21 15:14:01.542 [info] > git config --get commit.template [0ms]
+2023-12-21 15:14:01.548 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2023-12-21 15:14:01.556 [info] > git status -z -uall [3ms]
+2023-12-21 15:14:16.650 [info] > git add -A -- . [4ms]
+2023-12-21 15:14:16.662 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [7ms]
+2023-12-21 15:14:16.667 [info] > git config --get commit.template [1ms]
+2023-12-21 15:14:16.673 [info] > git config --get commit.template [1ms]
+2023-12-21 15:14:16.679 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-12-21 15:14:16.686 [info] > git status -z -uall [3ms]
+2023-12-21 15:14:16.729 [info] > git merge-base refs/heads/main refs/remotes/origin/main [6ms]
+2023-12-21 15:14:16.734 [info] > git config --get commit.template [7ms]
+2023-12-21 15:14:16.738 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [5ms]
+2023-12-21 15:14:16.739 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-12-21 15:14:16.746 [info] > git status -z -uall [3ms]
+2023-12-21 15:14:17.846 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/mc1.md [1ms]
+2023-12-21 15:14:17.853 [info] > git cat-file -s 4bdf7453ec1a7621477b600cde6d1d089928016e [0ms]
+2023-12-21 15:14:17.865 [info] > git show --textconv :mc1.md [0ms]
+2023-12-21 15:14:26.843 [info] > git log --oneline --cherry main...main@{upstream} -- [1ms]
+2023-12-21 15:14:28.040 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/mc1.md [1ms]
+2023-12-21 15:14:28.044 [info] > git cat-file -s 4bdf7453ec1a7621477b600cde6d1d089928016e [0ms]
+2023-12-21 15:14:28.053 [info] > git show --textconv :mc1.md [1ms]
+2023-12-21 15:14:42.063 [info] > git pull --tags origin main [15215ms]
+2023-12-21 15:14:42.063 [info] From github.com:dewdaddy35/fsdi-111
+ * branch            main       -> FETCH_HEAD
+2023-12-21 15:14:43.305 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/mc1.md [1ms]
+2023-12-21 15:14:43.310 [info] > git cat-file -s 4bdf7453ec1a7621477b600cde6d1d089928016e [0ms]
+2023-12-21 15:14:43.319 [info] > git show --textconv :mc1.md [1ms]
+2023-12-21 15:15:05.235 [info] > git push origin main:main [23166ms]
+2023-12-21 15:15:05.235 [info] To github.com:dewdaddy35/fsdi-111.git
+   27ef386..c643243  main -> main
+2023-12-21 15:15:05.247 [info] > git config --get commit.template [5ms]
+2023-12-21 15:15:05.247 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-12-21 15:15:05.254 [info] > git status -z -uall [3ms]
+2023-12-21 15:15:05.275 [info] > git merge-base refs/heads/main refs/remotes/origin/main [0ms]
+2023-12-21 15:15:05.279 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [0ms]
+2023-12-21 15:15:06.432 [info] > git config --get commit.template [1ms]
+2023-12-21 15:15:06.437 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-12-21 15:15:06.445 [info] > git status -z -uall [3ms]
+2023-12-21 15:15:06.529 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/mc1.md [1ms]
+2023-12-21 15:15:06.532 [info] > git cat-file -s 4bdf7453ec1a7621477b600cde6d1d089928016e [0ms]
+2023-12-21 15:15:06.540 [info] > git show --textconv :mc1.md [1ms]
+2023-12-21 15:15:44.072 [info] > git fetch [1026ms]
+2023-12-21 15:15:44.072 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-12-21 15:15:44.077 [info] > git config --get commit.template [0ms]
+2023-12-21 15:15:44.081 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2023-12-21 15:15:44.090 [info] > git status -z -uall [4ms]
+2023-12-21 15:15:44.245 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/mc1.md [0ms]
+2023-12-21 15:15:44.250 [info] > git cat-file -s 4bdf7453ec1a7621477b600cde6d1d089928016e [1ms]
+2023-12-21 15:15:44.258 [info] > git show --textconv :mc1.md [2ms]
+2023-12-21 15:15:51.475 [info] > git config --get commit.template [5ms]
+2023-12-21 15:15:51.475 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-12-21 15:15:51.482 [info] > git status -z -uall [2ms]
+2023-12-21 15:16:04.557 [info] > git add -A -- . [5ms]
+2023-12-21 15:16:04.569 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [7ms]
+2023-12-21 15:16:04.574 [info] > git config --get commit.template [1ms]
+2023-12-21 15:16:04.732 [info] > git config --get commit.template [153ms]
+2023-12-21 15:16:04.742 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-12-21 15:16:04.791 [info] > git status -z -uall [26ms]
+2023-12-21 15:16:04.820 [info] > git merge-base refs/heads/main refs/remotes/origin/main [7ms]
+2023-12-21 15:16:04.825 [info] > git config --get commit.template [6ms]
+2023-12-21 15:16:04.831 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [6ms]
+2023-12-21 15:16:04.832 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-12-21 15:16:04.846 [info] > git status -z -uall [9ms]
+2023-12-21 15:16:05.804 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/mc1.md [1ms]
+2023-12-21 15:16:05.809 [info] > git cat-file -s ab625fa430dfce0abe67e054b7097edb77b8dea8 [1ms]
+2023-12-21 15:16:05.818 [info] > git show --textconv :mc1.md [0ms]
+2023-12-21 15:16:12.717 [info] > git log --oneline --cherry main...main@{upstream} -- [3ms]
+2023-12-21 15:16:13.922 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/mc1.md [1ms]
+2023-12-21 15:16:13.927 [info] > git cat-file -s ab625fa430dfce0abe67e054b7097edb77b8dea8 [1ms]
+2023-12-21 15:16:13.937 [info] > git show --textconv :mc1.md [1ms]
+2023-12-21 15:16:20.365 [info] > git pull --tags origin main [7641ms]
+2023-12-21 15:16:20.365 [info] From github.com:dewdaddy35/fsdi-111
+ * branch            main       -> FETCH_HEAD
+2023-12-21 15:16:21.618 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/mc1.md [1ms]
+2023-12-21 15:16:21.623 [info] > git cat-file -s ab625fa430dfce0abe67e054b7097edb77b8dea8 [0ms]
+2023-12-21 15:16:21.633 [info] > git show --textconv :mc1.md [1ms]
+2023-12-21 15:16:33.968 [info] > git push origin main:main [13599ms]
+2023-12-21 15:16:33.968 [info] To github.com:dewdaddy35/fsdi-111.git
+   c643243..5fee0f9  main -> main
+2023-12-21 15:16:33.979 [info] > git config --get commit.template [5ms]
+2023-12-21 15:16:33.979 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2023-12-21 15:16:33.987 [info] > git status -z -uall [3ms]
+2023-12-21 15:16:34.007 [info] > git merge-base refs/heads/main refs/remotes/origin/main [0ms]
+2023-12-21 15:16:34.012 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [1ms]
+2023-12-21 15:16:35.168 [info] > git config --get commit.template [1ms]
+2023-12-21 15:16:35.174 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-12-21 15:16:35.182 [info] > git status -z -uall [3ms]
+2023-12-21 15:16:35.267 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/mc1.md [1ms]
+2023-12-21 15:16:35.276 [info] > git cat-file -s ab625fa430dfce0abe67e054b7097edb77b8dea8 [2ms]
+2023-12-21 15:16:35.296 [info] > git show --textconv :mc1.md [2ms]
+2023-12-21 17:02:09.624 [info] > git fetch [738ms]
+2023-12-21 17:02:09.624 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-12-21 17:02:09.633 [info] > git config --get commit.template [4ms]
+2023-12-21 17:02:09.634 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-12-21 17:02:09.641 [info] > git status -z -uall [3ms]
+2023-12-21 17:02:10.079 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/mc1.md [0ms]
+2023-12-21 17:02:10.084 [info] > git cat-file -s ab625fa430dfce0abe67e054b7097edb77b8dea8 [2ms]
+2023-12-21 17:02:10.093 [info] > git show --textconv :mc1.md [0ms]
+2023-12-21 17:03:51.625 [info] > git show --textconv :app/routes.py [9ms]
+2023-12-21 17:03:51.626 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/app/routes.py [2ms]
+2023-12-21 17:03:51.633 [info] > git cat-file -s 2ce826b3a10da84767624be8737bb6a9d1e466dd [1ms]
+2023-12-21 17:03:52.597 [info] > git show --textconv :run_local.sh [6ms]
+2023-12-21 17:03:52.597 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/run_local.sh [1ms]
+2023-12-21 17:03:52.601 [info] > git cat-file -s 5fc798dc257bbc0695b0cdce2ed2c795bc888fa3 [0ms]
+2023-12-21 17:17:42.317 [info] > git config --get commit.template [9ms]
+2023-12-21 17:17:42.318 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-12-21 17:17:42.318 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/run_local.sh [5ms]
+2023-12-21 17:17:42.322 [info] > git cat-file -s 5fc798dc257bbc0695b0cdce2ed2c795bc888fa3 [0ms]
+2023-12-21 17:17:42.333 [info] > git status -z -uall [7ms]
+2023-12-21 17:17:42.335 [info] > git show --textconv :run_local.sh [2ms]
+2023-12-21 17:17:43.064 [info] > git fetch [762ms]
+2023-12-21 17:17:43.064 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-12-21 17:17:43.073 [info] > git config --get commit.template [4ms]
+2023-12-21 17:17:43.073 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-12-21 17:17:43.080 [info] > git status -z -uall [3ms]
+2023-12-21 17:17:43.503 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/run_local.sh [0ms]
+2023-12-21 17:17:43.507 [info] > git cat-file -s 5fc798dc257bbc0695b0cdce2ed2c795bc888fa3 [0ms]
+2023-12-21 17:17:43.516 [info] > git show --textconv :run_local.sh [1ms]
+2023-12-21 17:17:48.920 [info] > git check-ignore -v -z --stdin [1ms]
+2023-12-21 17:17:52.188 [info] > git show --textconv :app/__init__.py [4ms]
+2023-12-21 17:17:52.189 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/app/__init__.py [1ms]
+2023-12-21 17:17:52.193 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [1ms]
+2023-12-21 17:17:52.888 [info] > git show --textconv :app/routes.py [9ms]
+2023-12-21 17:17:52.888 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/app/routes.py [1ms]
+2023-12-21 17:17:52.893 [info] > git cat-file -s 2ce826b3a10da84767624be8737bb6a9d1e466dd [1ms]
+2023-12-21 17:27:14.527 [info] > git fetch [730ms]
+2023-12-21 17:27:14.527 [info] Missing or invalid credentials.
+Skip silent fetch commands
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+2023-12-21 17:27:14.537 [info] > git config --get commit.template [4ms]
+2023-12-21 17:27:14.537 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-12-21 17:27:14.544 [info] > git status -z -uall [3ms]
+2023-12-21 17:27:14.988 [info] > git ls-files --stage -- /home/dew/Code/SDGKU/FSDI_111/app/routes.py [1ms]
+2023-12-21 17:27:14.992 [info] > git cat-file -s 2ce826b3a10da84767624be8737bb6a9d1e466dd [1ms]
+2023-12-21 17:27:14.999 [info] > git show --textconv :app/routes.py [1ms]

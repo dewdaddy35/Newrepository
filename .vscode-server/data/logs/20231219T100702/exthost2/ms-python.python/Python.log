@@ -5,3 +5,19 @@
 2023-12-20 17:39:18.390 [info] Test server listening.
 2023-12-20 17:39:18.390 [info] Python interpreter path: ./venv/bin/python
 2023-12-20 17:39:19.446 [info] Starting Pylance language server.
+2023-12-20 18:59:11.296 [info] Running installed packages checker:  python /home/dew/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/installed_check.py /home/dew/Code/SDGKU/FSDI_111/requirements.txt
+2023-12-20 18:59:11.296 [info] > python ~/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/installed_check.py ./requirements.txt
+2023-12-20 18:59:11.300 [error] Error while getting installed packages check result:
+ [Error: spawn python ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:283:19)
+	at onErrorNT (node:internal/child_process:476:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn python',
+  path: 'python',
+  spawnargs: [
+    '/home/dew/.vscode-server/extensions/ms-python.python-2023.22.1/pythonFiles/installed_check.py',
+    '/home/dew/Code/SDGKU/FSDI_111/requirements.txt'
+  ]
+}
